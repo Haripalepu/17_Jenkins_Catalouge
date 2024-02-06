@@ -5,3 +5,5 @@ first we have to build 01_catalogue_CI then 02_catalogue_CD in jenkins.
 01_catalogue_CI contains application code and using CI we are creating an artifact
 
 Jenkinsis having the version from jenkins to terraform and from terraform to ansible we should send the artifact version.
+
+When ever you do new build update the version in package.json file
