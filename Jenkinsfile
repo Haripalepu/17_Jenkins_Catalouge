@@ -5,7 +5,7 @@
 
 def configMap = [
     application: "nodejsVM",
-    component: "catalogue"
+    host_name: "catalogue"
 ]
 if( ! env.BRANCH_NAME.equalsIgnoreCase('main')){   //If the branch name is not main then run pipeline.
     pipelineDecission.decidePipeline(configMap)   //pipelineDecission is a file name in 17_shared_library
